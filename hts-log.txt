@@ -1,0 +1,34 @@
+HTTrack3.49-5 launched on Mon, 26 Feb 2024 16:49:43 at https://bluezone.com.ng/fx +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://bluezone.com.ng/fx -O "/home/raviheima/client/test" -n -%P -N100 -s2 -p7 -D -a -K0 -c4 -%k -A100000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:52:55	Error: 	"Not Found" (404) at link https://fonts.gstatic.com/ (from https://bluezone.com.ng/fx/)
+16:52:55	Error: 	"Not Found" (404) at link https://bluezone.com.ng/xmlrpc.php?rsd (from https://bluezone.com.ng/fx/)
+16:52:55	Warning: 	Moved Permanently for https://bluezone.com.ng/?p=12
+16:52:55	Warning: 	File has moved from https://bluezone.com.ng/?p=12 to https://bluezone.com.ng/fx/
+16:52:55	Warning: 	HTML file (1669 bytes) retransferred due to lack of cache: https://bluezone.com.ng/feed/
+16:52:55	Warning: 	HTML file (1650 bytes) retransferred due to lack of cache: https://bluezone.com.ng/comments/feed/
+16:52:55	Warning: 	HTML file (190777 bytes) retransferred due to lack of cache: https://bluezone.com.ng/wp-json/
+16:53:02	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://bluezone.com.ng/wp-json/wp/v2/pages/12
+16:53:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://bluezone.com.ng/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbluezone.com.ng%2Ffx%2F&format=xml
+16:53:06	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://bluezone.com.ng/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbluezone.com.ng%2Ffx%2F
+16:53:32	Warning: 	HTML file (57682 bytes) retransferred due to lack of cache: https://bluezone.com.ng/xmlrpc.php?rsd
+16:53:35	Error: 	"Not Found" (404) at link https://bluezone.com.ng/xmlrpc.php?rsd (from https://bluezone.com.ng/fx/)
+16:53:44	Error: 	"Not Found" (404) at link https://bluezone.com.ng/fx/a (from https://connect.facebook.net/en_US/fbevents.js)
+16:53:44	Error: 	"Not Found" (404) at link https://bluezone.com.ng/fx/POST (from https://connect.facebook.net/en_US/fbevents.js)
+16:53:44	Error: 	"Not Found" (404) at link https://bluezone.com.ng/fx/schema.org/ (from https://connect.facebook.net/en_US/fbevents.js)
+16:53:57	Error: 	"Not Found" (404) at link https://bluezone.com.ng/fx/b.resolvedLink (from https://connect.facebook.net/en_US/fbevents.js)
+16:53:57	Error: 	"Not Found" (404) at link https://bluezone.com.ng/signals/iwl.js (from https://connect.facebook.net/en_US/fbevents.js)
+16:53:57	Error: 	"Not Found" (404) at link https://bluezone.com.ng/fx/-negative.svg (from https://bluezone.com.ng/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.18.3)
+16:53:57	Error: 	"Not Found" (404) at link https://bluezone.com.ng/fx/OPR/ (from https://bluezone.com.ng/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.18.3)
+16:54:01	Warning: 	Retry after error -4 (No data (connection closed)) at link https://bluezone.com.ng/2023/12/29/hello-world/ (from https://bluezone.com.ng/)
+16:54:06	Error: 	"Not Found" (404) at link https://bluezone.com.ng/t,window.location (from https://bluezone.com.ng/wp-includes/js/dist/interactivity.min.js?ver=6.4.3)
+16:54:13	Warning: 	Moved Permanently for https://bluezone.com.ng/?p=1
+16:54:13	Warning: 	File has moved from https://bluezone.com.ng/?p=1 to https://bluezone.com.ng/2023/12/29/hello-world/
+
+HTTrack Website Copier/3.49-5 mirror complete in 4 minutes 31 seconds : 106 links scanned, 95 files written (8464879 bytes overall) [7591810 bytes received at 28014 bytes/sec], 3934566 bytes transferred using HTTP compression in 68 files, ratio 20%, 2.4 requests per connection
+(11 errors, 12 warnings, 0 messages)
